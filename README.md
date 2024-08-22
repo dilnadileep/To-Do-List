@@ -1,15 +1,18 @@
-# Angular Todo List
+# Angular To-Do List Application
 
-This project is a simple Todo List application built using Angular. It allows users to add, remove, and persist tasks using local storage. The application demonstrates key Angular concepts like two-way data binding, service management, and local storage integration.
+This project is a simple To-Do List application built with Angular. It allows users to add, remove, and persist tasks using browser local storage. The application is built with modern Angular practices, including the use of components, two-way data binding, and services.
 
 ## Features
 
-- **Add and Remove Tasks:** Users can add new tasks and remove existing ones with ease.
-- **Persistent Data:** Tasks are stored in local storage, ensuring that they persist even after the browser is closed.
-- **Service Management:** The task list is managed using Angular services, promoting clean and modular code.
-- **Responsive Design:** The application is styled to be user-friendly and responsive, providing a smooth experience on various devices.
-<img width="960" alt="Screenshot 1" src="https://github.com/user-attachments/assets/7b2cb383-bcc6-42ff-b2fa-af6f86681faa">
-<img width="960" alt="Screenshot 2" src="https://github.com/user-attachments/assets/b77c915d-01c7-4143-90a7-403702878e93">
+- **Component-Based Architecture**: The application is modular, with a dedicated `TodoListComponent` to manage and display tasks.
+- **Two-Way Data Binding**: Implemented using `[(ngModel)]` to ensure that the view and model are synchronized, allowing for dynamic task management.
+- **Service for Task Management**: A `TaskService` is used to handle task operations, centralizing the logic for adding, retrieving, and deleting tasks.
+- **Local Storage Persistence**: Tasks are stored in the browser's local storage, ensuring that tasks persist even after page refreshes or browser restarts.
+## Screenshot
+ **Task adding**:<img width="960" alt="Screenshot 1" src="https://github.com/user-attachments/assets/ec20899e-1848-4cc0-8ccd-2a2ef9c727b9">
+<img width="960" alt="Screenshot 2" src="https://github.com/user-attachments/assets/e0a63cee-45e4-4668-831b-897ae6a1571a">
+ **Task removing**<img width="960" alt="Screenshot 3" src="https://github.com/user-attachments/assets/6c38e0de-a6dd-4812-a7b4-1f189829c474">
+
 
 
 ## Technologies Used
