@@ -1,0 +1,9 @@
+h1.custom-heading {
+    font-family: 'Georgia', serif; /* Choose a serif font similar to the image */
+    font-weight: bold;
+    color: #111110; 
+    font-size: 2rem; 
+    text-align: center;
+    margin: 0;
+    padding: 10px; 
+}

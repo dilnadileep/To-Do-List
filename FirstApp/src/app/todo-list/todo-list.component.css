@@ -1,27 +1,67 @@
 .todo-container {
-    width: 300px;
-    margin: auto;
-    text-align: center;
-  }
-  
-  input {
-    width: 200px;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    margin-left: 10px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin: 5px 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  
+  width: 320px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #28204b;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+input {
+  width: calc(100% - 60px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3b3272;
+  color: #fff;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #5c4db3;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7160d1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #3b3272;
+  border-radius: 4px;
+}
+
+.add-task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-task input {
+  flex-grow: 1;
+}
+
+.add-task button {
+  margin-left: 10px;
+  flex-shrink: 0;
+}

@@ -14,6 +14,8 @@ import { TaskService } from '../task.service';
 export class TodoListComponent {
   tasks: string[] = [];
   newTask: string = '';
+  searchText: string = '';  // Add this line
+
 
   constructor(private taskService: TaskService) {
     this.tasks = this.taskService.getTasks();
