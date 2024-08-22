@@ -20,12 +20,11 @@ export class TaskService {
   }
 
   addTask(task: string): void {
-    if (this.isLocalStorageAvailable()) {
-      const tasks = this.getTasks();
-      tasks.push(task);
-      this.saveTasks(tasks);
-    }
+    const tasks = this.getTasks();
+    tasks.push(task);
+    this.saveTasks(tasks);
   }
+  
 
   deleteTask(index: number): void {
     if (this.isLocalStorageAvailable()) {
